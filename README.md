@@ -1,4 +1,14 @@
-# Svelte + TS + Vite
+# book-store-svelte
+
+https://github.com/panutat-p/book-store-svelte
+
+## Tools
+
+- https://vite.dev/guide
+- https://oxc.rs/docs/guide/usage/formatter.html
+- https://oxc.rs/docs/guide/usage/linter.html
+
+## Svelte + TS + Vite
 
 This template should help get you started developing with Svelte and TypeScript in Vite.
 
