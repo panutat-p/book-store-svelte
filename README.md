@@ -2,6 +2,10 @@
 
 https://github.com/panutat-p/book-store-svelte
 
+## Cloudflare Pages
+
+https://prod.book-store-svelte.pages.dev
+
 ## Tools
 
 - https://vite.dev/guide

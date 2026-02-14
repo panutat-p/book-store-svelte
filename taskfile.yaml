@@ -11,6 +11,16 @@ tasks:
     cmds:
       - bunx vite build
 
+  cf:whoami:
+    desc: Show current Cloudflare account
+    cmds:
+      - wrangler whoami
+
+  cf:deploy:prod:
+    desc: Deploy to Cloudflare Pages production
+    cmds:
+      - wrangler pages deploy dist --branch prod
+
   preview:
     desc: Preview production build
     cmds:
