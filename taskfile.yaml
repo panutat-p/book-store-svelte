@@ -1,0 +1,33 @@
+version: 3
+
+tasks:
+  dev:
+    desc: Start Vite dev server
+    cmds:
+      - bunx vite
+
+  build:
+    desc: Build for production
+    cmds:
+      - bunx vite build
+
+  preview:
+    desc: Preview production build
+    cmds:
+      - bunx vite preview
+
+  check:
+    desc: Run svelte-check and tsc
+    cmds:
+      - bunx svelte-check --tsconfig ./tsconfig.app.json
+      - bunx tsc -p tsconfig.node.json
+
+  fmt:
+    desc: Format files with Oxfmt
+    cmds:
+      - bunx oxfmt
+
+  lint:
+    desc: Lint and auto-fix with Oxlint
+    cmds:
+      - bunx oxlint --fix
